@@ -6,7 +6,7 @@
   "scripts": {
     "test": " jest --force-exit",
     "start": "node src/app.js",
-    "seed":"node seed.js"
+    "prestart":"node seed.js"
   },
   "keywords": [],
   "author": "",
