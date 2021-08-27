@@ -13,5 +13,5 @@ const keyCountSchema = mongoose.Schema({
 },{timestamps:{createdAt:true, updatedAt:false}}
 );
 
-const KeyCount = mongoose.model( 'KeyCount', keyCountSchema );
+const KeyCount = mongoose.model( 'keycount', keyCountSchema );
 module.exports = KeyCount

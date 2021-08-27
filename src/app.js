@@ -10,6 +10,9 @@ const {messageCode, messageText} = require('./dictionary/constants');
          
 
 app.use(express.json());
+app.get('/', async (req, res)=>{
+  res.status(200).send('getir test application running')
+})
 app.get('/ping', async (req, res)=>{
   res.status(200).send('pong')
 })
